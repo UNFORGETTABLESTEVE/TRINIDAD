@@ -6,28 +6,83 @@
     <title>Document</title>
 </head>
 <body background="40.jpg">
-<h1 align="center">TREES</h1>
-<h1 align="center">by:STEVEN TRINIDAD</h1>+
+    <h1 align="center">by:STEVEN TRINIDAD</h1>+
+     <script>
+            function ADD() 
+            {
+                var a, b, c;
+                a = Number(document.getElementById("value1").value);
+                b = Number(document.getElementById("value2").value);
+                c = a + b;
+                document.getElementById("answer").value = c;
+            }
+     </script>
 
-<center>I</center>
-<center>think</center>
-<center>that&nbsp;i</center>
-<center>shall&nbsp;never
-<center>see.&nbsp;A&nbsp;poem</center>
-<center>lovely&nbsp;as&nbsp;a&nbsp;tree</center>
-<center>A&nbsp;tree&nbsp;whose&nbsp;hungry
-<center>mouth&nbsp;is&nbsp;priest,&nbsp;Against</center>
-<center>the&nbsp;earth's&nbsp;sweet&nbsp;flowing
-<center>breast.&nbsp;A&nbsp;tree&nbsp;that&nbsp;looks&nbsp;at
-<center>God&nbsp;all&nbsp;day.&nbsp;And&nbsp;lifts&nbsp;her&nbsp;leaft</center>
-<center>arms&nbsp;to&nbsp;pray.&nbsp;A&nbsp;tree&nbsp;that&nbsp;my&nbsp;in</center>
-<center>Summer&nbsp;wear,&nbsp;A&nbsp;nest&nbsp;of&nbsp;robins&nbsp;in</center>
-<center>her&nbsp;half,&nbsp;Upon&nbsp;whose&nbsp;bosom&nbsp;snow
-<center>has&nbsp;lain,&nbsp;Whose&nbsp;intimately&nbsp;lives&nbsp;with&nbsp;rain
-<center>Poems&nbsp;are&nbsp;made</center>
-<center>by&nbsp;fools&nbsp;like&nbsp;me,</center>   
-<center>but&nbsp;only&nbsp;God&nbsp;can</center>
-<center>make&nbsp;a&nbsp;tree</center>
-</center>
-<body>
+
+    <h1 align="center">CALCULATOR</h1>
+    <input id="value1">
+    <input id="value2">
+    <button onclick="ADD()">ADD</button>
+    <input id="answer">
+</body>
 </html>
+<body>
+
+     <script>
+            function MINUS() 
+            {
+                var a, b, c;
+                a = Number(document.getElementById("value3").value);
+                b = Number(document.getElementById("value4").value);
+                c = a - b;
+                document.getElementById("RESULT").value = c;
+            }
+     </script><br>
+
+
+   
+    <input id="value3">
+    <input id="value4">
+    <button onclick="MINUS()">MINUS</button>
+    <input id="RESULT">
+
+
+
+
+    <body>
+     <script>
+            function MULTIPLY() 
+            {
+                var a, b, c;
+                a = Number(document.getElementById("value5").value);
+                b = Number(document.getElementById("value6").value);
+                c = a * b;
+                document.getElementById("ANSWER").value = c;
+            }
+     </script><br>
+
+
+    <input id="value5">
+    <input id="value6">
+    <button onclick="MULTIPLY()">MULTIPLY</button>
+    <input id="ANSWER">
+    
+
+
+    <body>
+     <script>
+            function DIVIDE() 
+            {
+                var a, b, c;
+                a = Number(document.getElementById("value7").value);
+                b = Number(document.getElementById("value8").value);
+                c = a / b;
+                document.getElementById("result").value = c;
+            }
+     </script><br>
+
+
+    <input id="value7">
+    <input id="value8">
+    <button onclick="DIVIDE()">DIVIDE</button>
+    <input id="result">
